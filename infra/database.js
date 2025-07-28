@@ -28,7 +28,9 @@ async function getNewClient() {
   return client;
 }
 
-export default {
+const database = {
   query: query,
   getNewClient, // if it's the same name you can just call it like that
 };
+
+export default database;
